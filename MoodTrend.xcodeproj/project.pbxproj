@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3F112051535082B00A1F53E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F112041535082B00A1F53E /* UIKit.framework */; };
+		C3F112071535082B00A1F53E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F112061535082B00A1F53E /* Foundation.framework */; };
+		C3F112091535082B00A1F53E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F112081535082B00A1F53E /* CoreGraphics.framework */; };
+		C3F1120F1535082B00A1F53E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F1120D1535082B00A1F53E /* InfoPlist.strings */; };
+		C3F112111535082B00A1F53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F112101535082B00A1F53E /* main.m */; };
+		C3F112151535082B00A1F53E /* MoodAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F112141535082B00A1F53E /* MoodAppDelegate.m */; };
+		C3F112181535082B00A1F53E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F112161535082B00A1F53E /* MainStoryboard.storyboard */; };
+		C3F1121B1535082B00A1F53E /* MoodFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F1121A1535082B00A1F53E /* MoodFirstViewController.m */; };
+		C3F1121D1535082B00A1F53E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F1121C1535082B00A1F53E /* first.png */; };
+		C3F1121F1535082B00A1F53E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F1121E1535082B00A1F53E /* first@2x.png */; };
+		C3F112221535082B00A1F53E /* MoodSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F112211535082B00A1F53E /* MoodSecondViewController.m */; };
+		C3F112241535082B00A1F53E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F112231535082B00A1F53E /* second.png */; };
+		C3F112261535082B00A1F53E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F112251535082B00A1F53E /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3F112001535082B00A1F53E /* MoodTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F112041535082B00A1F53E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3F112061535082B00A1F53E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3F112081535082B00A1F53E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3F1120C1535082B00A1F53E /* MoodTrend-Info.plist */ = {isa = PBXFileReference; path = "MoodTrend-Info.plist"; sourceTree = "<group>"; };
+		C3F1120E1535082B00A1F53E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3F112101535082B00A1F53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3F112121535082B00A1F53E /* MoodTrend-Prefix.pch */ = {isa = PBXFileReference; path = "MoodTrend-Prefix.pch"; sourceTree = "<group>"; };
+		C3F112131535082B00A1F53E /* MoodAppDelegate.h */ = {isa = PBXFileReference; path = MoodAppDelegate.h; sourceTree = "<group>"; };
+		C3F112141535082B00A1F53E /* MoodAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodAppDelegate.m; sourceTree = "<group>"; };
+		C3F112171535082B00A1F53E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C3F112191535082B00A1F53E /* MoodFirstViewController.h */ = {isa = PBXFileReference; path = MoodFirstViewController.h; sourceTree = "<group>"; };
+		C3F1121A1535082B00A1F53E /* MoodFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodFirstViewController.m; sourceTree = "<group>"; };
+		C3F1121C1535082B00A1F53E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C3F1121E1535082B00A1F53E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C3F112201535082B00A1F53E /* MoodSecondViewController.h */ = {isa = PBXFileReference; path = MoodSecondViewController.h; sourceTree = "<group>"; };
+		C3F112211535082B00A1F53E /* MoodSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodSecondViewController.m; sourceTree = "<group>"; };
+		C3F112231535082B00A1F53E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C3F112251535082B00A1F53E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3F111FD1535082B00A1F53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F112051535082B00A1F53E /* UIKit.framework in Frameworks */,
+				C3F112071535082B00A1F53E /* Foundation.framework in Frameworks */,
+				C3F112091535082B00A1F53E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3F111F51535082B00A1F53E = {
+			isa = PBXGroup;
+			children = (
+				C3F1120A1535082B00A1F53E /* MoodTrend */,
+				C3F112031535082B00A1F53E /* Frameworks */,
+				C3F112011535082B00A1F53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3F112011535082B00A1F53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F112001535082B00A1F53E /* MoodTrend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3F112031535082B00A1F53E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F112041535082B00A1F53E /* UIKit.framework */,
+				C3F112061535082B00A1F53E /* Foundation.framework */,
+				C3F112081535082B00A1F53E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F1120A1535082B00A1F53E /* MoodTrend */ = {
+			isa = PBXGroup;
+			children = (
+				C3F112131535082B00A1F53E /* MoodAppDelegate.h */,
+				C3F112141535082B00A1F53E /* MoodAppDelegate.m */,
+				C3F112161535082B00A1F53E /* MainStoryboard.storyboard */,
+				C3F112191535082B00A1F53E /* MoodFirstViewController.h */,
+				C3F1121A1535082B00A1F53E /* MoodFirstViewController.m */,
+				C3F1121C1535082B00A1F53E /* first.png */,
+				C3F1121E1535082B00A1F53E /* first@2x.png */,
+				C3F112201535082B00A1F53E /* MoodSecondViewController.h */,
+				C3F112211535082B00A1F53E /* MoodSecondViewController.m */,
+				C3F112231535082B00A1F53E /* second.png */,
+				C3F112251535082B00A1F53E /* second@2x.png */,
+				C3F1120B1535082B00A1F53E /* Supporting Files */,
+			);
+			path = MoodTrend;
+			sourceTree = "<group>";
+		};
+		C3F1120B1535082B00A1F53E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F1120C1535082B00A1F53E /* MoodTrend-Info.plist */,
+				C3F1120D1535082B00A1F53E /* InfoPlist.strings */,
+				C3F112101535082B00A1F53E /* main.m */,
+				C3F112121535082B00A1F53E /* MoodTrend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3F111FF1535082B00A1F53E /* MoodTrend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F112291535082B00A1F53E /* Build configuration list for PBXNativeTarget "MoodTrend" */;
+			buildPhases = (
+				C3F111FC1535082B00A1F53E /* Sources */,
+				C3F111FD1535082B00A1F53E /* Frameworks */,
+				C3F111FE1535082B00A1F53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodTrend;
+			productName = MoodTrend;
+			productReference = C3F112001535082B00A1F53E /* MoodTrend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3F111F71535082B00A1F53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C3F111FA1535082B00A1F53E /* Build configuration list for PBXProject "MoodTrend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3F111F51535082B00A1F53E;
+			productRefGroup = C3F112011535082B00A1F53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3F111FF1535082B00A1F53E /* MoodTrend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3F111FE1535082B00A1F53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F1120F1535082B00A1F53E /* InfoPlist.strings in Resources */,
+				C3F112181535082B00A1F53E /* MainStoryboard.storyboard in Resources */,
+				C3F1121D1535082B00A1F53E /* first.png in Resources */,
+				C3F1121F1535082B00A1F53E /* first@2x.png in Resources */,
+				C3F112241535082B00A1F53E /* second.png in Resources */,
+				C3F112261535082B00A1F53E /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F111FC1535082B00A1F53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F112111535082B00A1F53E /* main.m in Sources */,
+				C3F112151535082B00A1F53E /* MoodAppDelegate.m in Sources */,
+				C3F1121B1535082B00A1F53E /* MoodFirstViewController.m in Sources */,
+				C3F112221535082B00A1F53E /* MoodSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3F1120D1535082B00A1F53E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F1120E1535082B00A1F53E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3F112161535082B00A1F53E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3F112171535082B00A1F53E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3F112271535082B00A1F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3F112281535082B00A1F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F1122A1535082B00A1F53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoodTrend/MoodTrend-Prefix.pch";
+				INFOPLIST_FILE = "MoodTrend/MoodTrend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3F1122B1535082B00A1F53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoodTrend/MoodTrend-Prefix.pch";
+				INFOPLIST_FILE = "MoodTrend/MoodTrend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3F111FA1535082B00A1F53E /* Build configuration list for PBXProject "MoodTrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F112271535082B00A1F53E /* Debug */,
+				C3F112281535082B00A1F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F112291535082B00A1F53E /* Build configuration list for PBXNativeTarget "MoodTrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F1122A1535082B00A1F53E /* Debug */,
+				C3F1122B1535082B00A1F53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3F111F71535082B00A1F53E /* Project object */;
+}
