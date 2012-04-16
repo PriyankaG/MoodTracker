@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C331C2DB153511E200075F33 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C331C2DA153511E200075F33 /* libsqlite3.dylib */; };
+		C3C3259515388FA200B4D475 /* ButtonGreen1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C3258F15388FA100B4D475 /* ButtonGreen1.png */; };
+		C3C3259615388FA200B4D475 /* ButtonGreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C3259015388FA200B4D475 /* ButtonGreen2.png */; };
+		C3C3259715388FA200B4D475 /* ButtonRed1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C3259115388FA200B4D475 /* ButtonRed1.png */; };
+		C3C3259815388FA200B4D475 /* ButtonRed2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C3259215388FA200B4D475 /* ButtonRed2.png */; };
+		C3C3259915388FA200B4D475 /* ButtonYellow1.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C3259315388FA200B4D475 /* ButtonYellow1.png */; };
+		C3C3259A15388FA200B4D475 /* ButtonYellow2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C3259415388FA200B4D475 /* ButtonYellow2.png */; };
+		C3C3259E153893BF00B4D475 /* DatabaseOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C3259D153893BF00B4D475 /* DatabaseOperations.m */; };
 		C3F112051535082B00A1F53E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F112041535082B00A1F53E /* UIKit.framework */; };
 		C3F112071535082B00A1F53E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F112061535082B00A1F53E /* Foundation.framework */; };
 		C3F112091535082B00A1F53E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F112081535082B00A1F53E /* CoreGraphics.framework */; };
@@ -23,22 +31,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C331C2DA153511E200075F33 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C3C3258F15388FA100B4D475 /* ButtonGreen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonGreen1.png; path = ../../../../../Pictures/Icons/ButtonGreen1.png; sourceTree = "<group>"; };
+		C3C3259015388FA200B4D475 /* ButtonGreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonGreen2.png; path = ../../../../../Pictures/Icons/ButtonGreen2.png; sourceTree = "<group>"; };
+		C3C3259115388FA200B4D475 /* ButtonRed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonRed1.png; path = ../../../../../Pictures/Icons/ButtonRed1.png; sourceTree = "<group>"; };
+		C3C3259215388FA200B4D475 /* ButtonRed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonRed2.png; path = ../../../../../Pictures/Icons/ButtonRed2.png; sourceTree = "<group>"; };
+		C3C3259315388FA200B4D475 /* ButtonYellow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonYellow1.png; path = ../../../../../Pictures/Icons/ButtonYellow1.png; sourceTree = "<group>"; };
+		C3C3259415388FA200B4D475 /* ButtonYellow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonYellow2.png; path = ../../../../../Pictures/Icons/ButtonYellow2.png; sourceTree = "<group>"; };
+		C3C3259C153893BF00B4D475 /* DatabaseOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseOperations.h; sourceTree = "<group>"; };
+		C3C3259D153893BF00B4D475 /* DatabaseOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseOperations.m; sourceTree = "<group>"; };
 		C3F112001535082B00A1F53E /* MoodTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F112041535082B00A1F53E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C3F112061535082B00A1F53E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3F112081535082B00A1F53E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C3F1120C1535082B00A1F53E /* MoodTrend-Info.plist */ = {isa = PBXFileReference; path = "MoodTrend-Info.plist"; sourceTree = "<group>"; };
+		C3F1120C1535082B00A1F53E /* MoodTrend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoodTrend-Info.plist"; sourceTree = "<group>"; };
 		C3F1120E1535082B00A1F53E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3F112101535082B00A1F53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3F112121535082B00A1F53E /* MoodTrend-Prefix.pch */ = {isa = PBXFileReference; path = "MoodTrend-Prefix.pch"; sourceTree = "<group>"; };
-		C3F112131535082B00A1F53E /* MoodAppDelegate.h */ = {isa = PBXFileReference; path = MoodAppDelegate.h; sourceTree = "<group>"; };
+		C3F112121535082B00A1F53E /* MoodTrend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoodTrend-Prefix.pch"; sourceTree = "<group>"; };
+		C3F112131535082B00A1F53E /* MoodAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoodAppDelegate.h; sourceTree = "<group>"; };
 		C3F112141535082B00A1F53E /* MoodAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodAppDelegate.m; sourceTree = "<group>"; };
 		C3F112171535082B00A1F53E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C3F112191535082B00A1F53E /* MoodFirstViewController.h */ = {isa = PBXFileReference; path = MoodFirstViewController.h; sourceTree = "<group>"; };
+		C3F112191535082B00A1F53E /* MoodFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoodFirstViewController.h; sourceTree = "<group>"; };
 		C3F1121A1535082B00A1F53E /* MoodFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodFirstViewController.m; sourceTree = "<group>"; };
 		C3F1121C1535082B00A1F53E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		C3F1121E1535082B00A1F53E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		C3F112201535082B00A1F53E /* MoodSecondViewController.h */ = {isa = PBXFileReference; path = MoodSecondViewController.h; sourceTree = "<group>"; };
+		C3F112201535082B00A1F53E /* MoodSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoodSecondViewController.h; sourceTree = "<group>"; };
 		C3F112211535082B00A1F53E /* MoodSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoodSecondViewController.m; sourceTree = "<group>"; };
 		C3F112231535082B00A1F53E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		C3F112251535082B00A1F53E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -49,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C331C2DB153511E200075F33 /* libsqlite3.dylib in Frameworks */,
 				C3F112051535082B00A1F53E /* UIKit.framework in Frameworks */,
 				C3F112071535082B00A1F53E /* Foundation.framework in Frameworks */,
 				C3F112091535082B00A1F53E /* CoreGraphics.framework in Frameworks */,
@@ -58,9 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C31B19BC1538E49200E203D2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		C3F111F51535082B00A1F53E = {
 			isa = PBXGroup;
 			children = (
+				C331C2DA153511E200075F33 /* libsqlite3.dylib */,
 				C3F1120A1535082B00A1F53E /* MoodTrend */,
 				C3F112031535082B00A1F53E /* Frameworks */,
 				C3F112011535082B00A1F53E /* Products */,
@@ -88,11 +114,18 @@
 		C3F1120A1535082B00A1F53E /* MoodTrend */ = {
 			isa = PBXGroup;
 			children = (
+				C3C3258F15388FA100B4D475 /* ButtonGreen1.png */,
+				C3C3259015388FA200B4D475 /* ButtonGreen2.png */,
+				C3C3259115388FA200B4D475 /* ButtonRed1.png */,
+				C3C3259215388FA200B4D475 /* ButtonRed2.png */,
+				C3C3259315388FA200B4D475 /* ButtonYellow1.png */,
+				C3C3259415388FA200B4D475 /* ButtonYellow2.png */,
 				C3F112131535082B00A1F53E /* MoodAppDelegate.h */,
 				C3F112141535082B00A1F53E /* MoodAppDelegate.m */,
 				C3F112161535082B00A1F53E /* MainStoryboard.storyboard */,
 				C3F112191535082B00A1F53E /* MoodFirstViewController.h */,
 				C3F1121A1535082B00A1F53E /* MoodFirstViewController.m */,
+				C31B19BC1538E49200E203D2 /* New Group */,
 				C3F1121C1535082B00A1F53E /* first.png */,
 				C3F1121E1535082B00A1F53E /* first@2x.png */,
 				C3F112201535082B00A1F53E /* MoodSecondViewController.h */,
@@ -100,6 +133,8 @@
 				C3F112231535082B00A1F53E /* second.png */,
 				C3F112251535082B00A1F53E /* second@2x.png */,
 				C3F1120B1535082B00A1F53E /* Supporting Files */,
+				C3C3259C153893BF00B4D475 /* DatabaseOperations.h */,
+				C3C3259D153893BF00B4D475 /* DatabaseOperations.m */,
 			);
 			path = MoodTrend;
 			sourceTree = "<group>";
@@ -171,6 +206,12 @@
 				C3F1121F1535082B00A1F53E /* first@2x.png in Resources */,
 				C3F112241535082B00A1F53E /* second.png in Resources */,
 				C3F112261535082B00A1F53E /* second@2x.png in Resources */,
+				C3C3259515388FA200B4D475 /* ButtonGreen1.png in Resources */,
+				C3C3259615388FA200B4D475 /* ButtonGreen2.png in Resources */,
+				C3C3259715388FA200B4D475 /* ButtonRed1.png in Resources */,
+				C3C3259815388FA200B4D475 /* ButtonRed2.png in Resources */,
+				C3C3259915388FA200B4D475 /* ButtonYellow1.png in Resources */,
+				C3C3259A15388FA200B4D475 /* ButtonYellow2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +226,7 @@
 				C3F112151535082B00A1F53E /* MoodAppDelegate.m in Sources */,
 				C3F1121B1535082B00A1F53E /* MoodFirstViewController.m in Sources */,
 				C3F112221535082B00A1F53E /* MoodSecondViewController.m in Sources */,
+				C3C3259E153893BF00B4D475 /* DatabaseOperations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +257,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_VARIANTS = iphoneos;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -230,8 +276,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos5.0;
 			};
 			name = Debug;
 		};
@@ -240,17 +287,22 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_VARIANTS = iphoneos;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -258,6 +310,10 @@
 		C3F1122A1535082B00A1F53E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoodTrend/MoodTrend-Prefix.pch";
 				INFOPLIST_FILE = "MoodTrend/MoodTrend-Info.plist";
@@ -269,6 +325,10 @@
 		C3F1122B1535082B00A1F53E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoodTrend/MoodTrend-Prefix.pch";
 				INFOPLIST_FILE = "MoodTrend/MoodTrend-Info.plist";
@@ -296,6 +356,7 @@
 				C3F1122B1535082B00A1F53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
